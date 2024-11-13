@@ -1,0 +1,4 @@
+Perak;45;55;34
+Melaka;50;60;55
+Johor;70;80;77
+Selangor;30;35;40
