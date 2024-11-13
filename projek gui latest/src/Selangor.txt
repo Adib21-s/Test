@@ -1,0 +1,4 @@
+Perak;25;30;20
+Kelantan;30;35;40
+Melaka;15;25;20
+Johor;15;25;20
