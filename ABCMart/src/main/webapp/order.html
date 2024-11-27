@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>ABC Mart</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<h1>ABC Mart</h1>
+	<h3>Get Your Groceries Here</h3>
+	<form action="OrderServlet" method="post">
+		<b>I/C No: </b><br> 
+		<input type="text" name="identification"><br> <br> 
+		<b>Contact No: </b><br> 
+		<input type="text" name="contact"><br> <br> 
+		<b>Delivery Date: </b><br> 
+		<input type="date" name="date"><br>
+		<table>
+			<tr>
+				<th colspan="5">Category & Quantity</th>
+			</tr>
+			<tr>
+				<td>Fruits</td>
+				<td><input type="number" name="fruitQuantity" value="0" min="0"></td>
+			</tr>
+			<tr>
+				<td>Vegetables</td>
+				<td><input type="number" name="vegetablesQuantity" value="0" min="0"></td>
+			</tr>
+			<tr>
+				<td>Household</td>
+				<td><input type="number" name="householdQuantity" value="0" min="0"></td>
+			</tr>
+			<tr>
+				<td>Dairy</td>
+				<td><input type="number" name="dairyQuantity" value="0" min="0"></td>
+			</tr>
+		</table>
+		<br> <br> 
+		Discount voucher: <br> 
+		<input type="text" name="voucher" value="">
+		<br><br> 
+		<input type="submit" value="Order"> <input type="reset">
+	</form>
+</body>
+</html>
+<!-- Author: FES -->
+<!-- Lab Assignment 1 (October 2024) -->
