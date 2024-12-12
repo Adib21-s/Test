@@ -1,4 +1,0 @@
-Melaka;40;50;60
-Johor;45;55;54
-Selangor;25;30;20
-Kelantan;40;50;55
