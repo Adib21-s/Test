@@ -4,6 +4,7 @@
   <artifactId>NuggetEyewear</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
+	<name>NuggetEyewear</name>
 <dependencies>
     <dependency>
       	<groupId>jakarta.servlet</groupId>
